@@ -1,0 +1,82 @@
+
+/* Mobile */
+@media only screen and (min-width:320px) and (max-width:480px){
+    .Section-hero{
+        .Parent-hero{
+            img{
+                width: 100%;
+                height: auto;
+            }
+           flex-direction: column;
+           gap: 20px;
+           .hero-right{
+            align-items: center;
+            gap:15px;
+            .btn{
+                font-size: 16px;
+            }
+           }
+        }
+    }
+}
+@media only screen and (min-width:480px) and (max-width:768px){
+    .Section-hero{
+        .Parent-hero{
+            h1{
+                font-size: 32px;
+            }
+           flex-direction: column;
+           gap: 20px;
+           .hero-right{
+            align-items: center;
+            gap:15px;
+            .btn{
+                font-size: 24px;
+            }
+           }
+        }
+    }
+}
+/* Tablet */
+/* @media only screen and (min-width:480px) and (max-width:768px){
+    .Section-hero{
+        .Parent-hero{
+            gap: 80px;
+        }}
+} */
+/* Small Screen */
+@media only screen and (min-width:768px) and (max-width:1024px){
+    .Section-hero{
+        .Parent-hero 
+        { 
+           gap: 80px;
+           .hero-right{
+            align-items:start;
+            gap:15px;
+        }
+    }
+}
+}
+/* Medium Screen */
+@media only screen and (min-width:1024px) and (max-width:1280px){
+    .Section-hero{
+        .Parent-hero
+        { 
+            h1{
+        
+                text-align: center;
+            }
+           gap: 100px;}}
+
+}
+/* Large Screen */
+@media only screen and (min-width:1280px){
+    .Section-hero{
+        .Parent-hero
+        { 
+        justify-content: space-between;
+        .hero-right{
+         padding-right:5rem;
+        }
+        }}
+}
